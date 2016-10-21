@@ -1,4 +1,33 @@
-h1{
-  color:darkslateblue;
-  font-size=20px;
+body{
+    background-image: url(http://i.imgur.com/mOh6hLR.png);
 }
+
+
+#intro{
+    height:850px;
+    width: 300px;
+    border: 2px solid black;
+    border-riadius: 5px;
+    background-color:#A6FFFF;
+    float:left;
+    text-align: center;
+ }
+
+p,h1 {
+   font-family:cursive;
+   color:firebrick;
+}
+
+
+#connect {
+    height:20px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #69D2E7;
+    text-align: center;
+    color: #000000;
+    font-family: Verdana, Arial, Sans-Serif;
+    opacity: 1;
+    float:right;
+}
+
