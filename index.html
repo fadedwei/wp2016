@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <title>This is Wei's field</title>
 </head>
 
-<body bgcolor="#000000" text="FFFFFF" link="#FFFFFF" vlink="#FFFFFF" alink="#000000">
-  <font size="7" color="EEBB66"><b><marquee>Hello I am Wei</marquee></b></font>
-    <center>
-      <a img src="http://imgur.com/wcZSR5m"><img src="http://i.imgur.com/wcZSR5m.png" title="source: imgur.com" /></a>
-      <center><ul type=circle></center>
-      <h1>何偉立</h1>
-      <br>                
-      <li><font>成功大學電機系</font></li>
-      <li><font>希望能順利畢業</font></li>
-      <li><a href ="https://www.youtube.com/watch?v=NyCNkq4ByzY" target=_blank>小時候最愛的卡通</a></li>
-      <li><a href ="https://www.youtube.com/watch?v=G5_mp-StiGY" target=_blank>近期喜歡的歌</a></li>
-      </ul>
-      <a href ="https://www.facebook.com/profile.php?id=100009820269809" target=_blank>FB</a>
-      </center>
+
+<body>
+     <font size="7" color="#D94600"><b><marquee>Hello I am Wei</marquee></b></font>
+        <div id="intro">
+            <img src="http://i.imgur.com/wcZSR5m.png" />
+            <h1>何偉立</h1>
+            <p>成功大學電機系108</p>
+            <p>高雄人</p>
+            <p>喜歡的科目是數學</p>
+            <p>射手座</p>
+            <p>雖然我是尾立</p>
+            <p id="egg1">可是我喜歡蛋黃哥(clik me) </p>
+            <p id="egg2"><img src="http://i.imgur.com/miFQnFz.png" /></p>
+        </div>
+         
+
+        <p><a id="connect"  href ="https://www.youtube.com/watch?v=NyCNkq4ByzY" target=_blank>小時候最愛的卡通</a></p>
+        <p><a id="connect"  href ="https://www.youtube.com/watch?v=G5_mp-StiGY" target=_blank>近期最喜歡的歌</a></p>
+        <p><a id="connect"  href ="https://www.youtube.com/watch?v=xsntt1sO3Ac " target=_blank>最熱血的戰鬥!!</a></p>
+        <p><a id="connect"  href =" https://comic.acgn.cc/view-71769.htm#show" target=_blank>最詭異的漫畫!!</a></p>
+<script>
+   $(document).ready(function(){
+       $("#egg1").click(function(){
+       $("#egg2").fadeToggle();
+});
+});
+</script>
 </body>
-
-
 </html>
+
+
+
+
